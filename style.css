@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #230258;
+    color: whitesmoke;
+}
+
+header{
+    height: 15vh;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-color: rgb(12, 6, 46);
+    font-size: 60px;
+    padding: 5px;
+}
+.score{
+    height: 30vh;
+    width: 100vw;
+    background-color: rgb(27, 1, 70);
+    font-size:40px;
+    align-content: center;
+    text-align: center;
+}
+.score #finalScore{
+    padding-top: 15px;
+    color: rgb(184, 219, 102);
+}
+.score #userScore{
+    color: rgb(105, 105, 219);
+}
+.score #compScore{
+    color: rgb(235, 103, 130);
+}
+
+.score button{
+    margin-top: 5px;
+    background-color: rgb(14, 2, 2);
+    border-radius: 40px;
+    outline: none;
+    border-color: rgb(18, 175, 123);
+}
+
+.score #rockbtn svg{
+    background-color: transparent;
+    height: 50px;
+    width: 100px;
+    fill: rgb(24, 22, 22);
+    border-radius: 50px;
+}
+.score #paperbtn svg{
+    background-color: transparent;
+    height: 50px;
+    width: 100px;
+    fill: rgb(35, 219, 18);
+    border-radius: 50px;
+}
+.score #scissorsbtn svg{
+    background-color: transparent;
+    height: 50px;
+    width: 100px;
+    fill: rgb(13, 63, 202);
+    border-radius: 50px;
+}
+
+.playagain{
+    position: relative;
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(27, 5, 71);
+}
+
+.playagain #reset{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 50px;
+    background-color: rgb(39, 6, 117);
+    border-radius: 20px;
+    border-color: aqua;
+    color:white;
+    outline: none;
+}
+
